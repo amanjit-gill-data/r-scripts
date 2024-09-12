@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "c0fd951c1872644f",
+    "type": "split",
+    "children": [
+      {
+        "id": "afb811a81c6d703e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cda7f11ce9b1ac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week3/notes/1. generalised linear model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9994053c3bee8796",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f95656a8f8f7db8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68e564ed692deb67",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b0843be13c88a314",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3ec5e8fb6d247128",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5
+  },
+  "right": {
+    "id": "0d080c253bc47fc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d5ebe4d907628dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66299b2d037f7bca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "week3/notes/1. generalised linear model.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "39f06fb08be07790",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "week3/notes/1. generalised linear model.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0da1e206b2cf92f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "week3/notes/1. generalised linear model.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "1cda7f11ce9b1ac2",
+  "lastOpenFiles": [
+    "week3/notes/attachments/Week_3_Presentation.pdf",
+    "week3/notes/attachments/Wald Statistic.pdf",
+    "week3/notes/attachments/variance-covariance of glm score - proof.pdf",
+    "week3/notes/attachments/method of scoring to obtain mle - proof.pdf",
+    "week3/notes/attachments/Lecture 1 and 2- Week 3.pdf",
+    "week3/notes/attachments/glm score - proof.pdf",
+    "week3/notes/attachments/3.4 Log-linear regression.pdf",
+    "week3/notes/attachments/3.3 Poisson Regression.pdf",
+    "week3/notes/attachments/3.2 Logistic Regression.pdf",
+    "week3/notes/attachments/3.1 Generalised Linear Models definition and examples.pdf",
+    "week2/notes/2. linear gaussian models.md",
+    "week2/notes/attachments/SLR and hypothesis testing - quick notes from FDS.pdf",
+    "week1/notes/1. fundamentals.md",
+    "week0/webinar and to-do.md",
+    "week1/notes/1.1 regression.md",
+    "week3/notes/1. generalised linear model.md",
+    "week2/notes/9. optional modeling concepts.md",
+    "week2/notes/7. general linear models.md",
+    "week2/notes/2.4b leverage.md",
+    "week2/notes/2.4 assess model assumptions.md",
+    "week2/notes/1. SLR concepts.md",
+    "week7/0. Exam preparation.md",
+    "week6/notes/links to annotated notes.md",
+    "week5/notes/links to annotated notes.md",
+    "week4/notes/2. validation methods.md",
+    "week4/notes/3. information criteria.md",
+    "week4/notes/4. variable selection methods.md",
+    "week4/notes/1. losses and errors.md",
+    "week3/notes/2.1b hosmer-lemeshow, LR ratio, pseudo Rsq.md",
+    "week3/notes/2.1a hyp tests with Psq & D.md",
+    "week2/notes/8. problems with models.md",
+    "week2/notes/4. conf and pred intervals.md",
+    "week2/notes/3.2 F-statistic.md",
+    "week2/notes/3. hypothesis testing.md",
+    "week1/notes/5.1 deviance of binomial RVs.md",
+    "week1/notes/5. deviance.md",
+    "Untitled.canvas",
+    "week6/attachments/Pasted image 20230413233149.png",
+    "week5/attachments/Pasted image 20230404142037.png",
+    "week4/notes/attachments/Pasted image 20230403014503.png",
+    "week4/notes/attachments/Pasted image 20230403014439.png",
+    "week4/notes/attachments/Pasted image 20230403014424.png",
+    "week4/attachments/Pasted image 20230402120625.png",
+    "week4/notes/attachments/Pasted image 20230330005955.png",
+    "week4/notes/attachments/Pasted image 20230328205620.png",
+    "week4/notes/attachments/Pasted image 20230328205541.png",
+    "week4/notes/attachments/Pasted image 20230328205326.png"
+  ]
+}

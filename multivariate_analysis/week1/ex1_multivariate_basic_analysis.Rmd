@@ -1,0 +1,83 @@
+---
+title: "Week 1 - Basic Multivariate Summaries and Visualisations"
+author: "Amanjit Gill"
+date: "2022-10-26"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### **Task 1**
+
+Basic data summaries.
+```{r summaries1}
+data(iris)
+
+summary(iris)
+```
+
+Univariate summaries.
+```{r summaries2}
+
+# mean of each specified column
+# last column, species, is discarded
+colMeans(iris[,-5])
+
+# apply sd(..) function to each column
+# 2nd argument, 2, says to apply the function by column
+apply(iris[,-5], 2, sd)
+
+# apply quantile(.95) to each column
+apply(iris[,-5], 2, quantile, .95)
+```
+
+Multivariate summaries.
+```{r summaries3}
+cov(iris[,-5])
+cor(iris[,-5])
+
+```
+
+- Use 'pipe' operator %>% from the magrittr package to pass results from one function to the next.
+- Use 'map' function from the purrr package.
+```{r load_pipe}
+
+library(magrittr)
+library(purrr)
+```
+
+```{r use_pipe}
+
+# this says:
+# start with iris dataset
+# split according to species column
+# for each species, discard last column (species)
+# compute covariances for the remaining columns, by species
+
+iris %>%
+    split(iris$Species) %>%
+    map(~.[-5]) %>%
+    map(cov)
+
+```
+
+#### **Task 2**
+
+Visualisations.
+
+- Use 'ggpairs' function from GGally package to create a 'pairwise' plot i.e. every variable against every other variable.
+- 'ggpairs' also handles categorical data.
+
+```{r load_ggally}
+
+library(GGally)
+```
+
+```{r use_ggally}
+
+ggpairs(iris, aes(colour=Species, alpha=0.7))
+```
